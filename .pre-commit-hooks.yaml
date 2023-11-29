@@ -5,6 +5,13 @@
   language: script
   files: ^Pipfile(\.lock)?$
 
+- id: pipenv-generate-dev-requirements
+  name: Generate dev-requirements.txt
+  description: This hook generates a dev-requirements.txt files from Pipfile.lock
+  entry: ./generate-reqs-dev-only.sh
+  language: script
+  files: ^Pipfile(\.lock)?$
+
 - id: pipenv-generate-requirements-no-index
   name: Generate requirements.txt
   description: This hook generates a requirements.txt files from Pipfile.lock without the index url

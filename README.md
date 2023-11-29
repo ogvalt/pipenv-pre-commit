@@ -10,6 +10,10 @@ id: `pipenv-generate-requirements`
 
 Generates (or regenerates) a requirements.txt file 
 
+id: `pipenv-generate-dev-requirements`
+
+Generates (or regenerates) a dev-requirements.txt file 
+
 
 id: `pipenv-generate-requirements-no-index`
 
